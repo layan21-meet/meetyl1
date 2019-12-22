@@ -2,15 +2,18 @@
 body {
   background-color: lightgrey;
 }
-#byyee, #header{
-	text-align:center;
-}
+
 h1{
   border: 1px solid red;
   padding: 20px;
 }
+
+#heading{color:black;}
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 50%;   
+
+    
+    
