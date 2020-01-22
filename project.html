@@ -1,0 +1,38 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<h1> Karma</h1>
+    <script>
+      
+    function myFunction() {
+	    document.getElementById("p1").innerHTML = "You gave her money but she asks for more";
+		document.getElementById("demo").innerHTML = "give her";
+		document.getElementById("fun").innerHTML = "Nah, I'm broke"; 
+		document.getElementById("demo").addEventListener("onclick",Fire); 
+
+	}
+
+	function my(){
+		document.getElementById("p1").innerHTML = "You have skipped the beggar and 3 seconds later you see a plane crash"; 
+		document.getElementById("demo").innerHTML = "Go back to her";
+		document.getElementById("fun").innerHTML = "continue";
+	}
+
+	function Fire(){
+		
+	}
+
+
+    </script>
+</head>
+<body style="text-align:center">
+	<p id ="p1">You are walking and you see a beggar</p>
+    <button id="demo" onclick="myFunction()">Help her!</button> 
+    <button id="fun" onclick="my()" type="button" style="">Skip her!</button>
+  <!-- <img src="beggar.jpg"> -->
+ 	
+
+
+   
+</body>
+</html>

@@ -1,19 +1,19 @@
-#header{color:red;}
-body {
-  background-color: lightgrey;
+h1 {
+  color: white;
+  margin-left: 30px;
+  text-align: center;
+}
+p{
+	margin-left: 30px;
+	text-align: center;
 }
 
-h1{
-  border: 1px solid red;
-  padding: 20px;
+h1 {
+  background-image: linear-gradient(blue, purple);
+} 
+
+body{
+	background-image: url("begger1.jpg");
+	background-size: cover;
+
 }
-
-#heading{color:black;}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;   
-
-    
-    
